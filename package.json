@@ -1,8 +1,7 @@
 {
   "name": "oculus-intertenerius",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "microbloggish thing about the movies I have seen",
-  "main": "index.js",
   "scripts": {
     "import-blogger-xml": "node scripts/import-blogger-xml",
     "check-integrity": "node scripts/check-integrity",
