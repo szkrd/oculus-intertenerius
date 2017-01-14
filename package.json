@@ -1,0 +1,45 @@
+{
+  "name": "oculus-intertenerius",
+  "version": "0.0.1",
+  "description": "microbloggish thing about the movies I have seen",
+  "main": "index.js",
+  "scripts": {
+    "import-blogger-xml": "node scripts/import-blogger-xml",
+    "check-integrity": "node scripts/check-integrity",
+    "json-query": "node scripts/json-query",
+    "add-new": "node --harmony-async-await scripts/add-new",
+    "lint": "eslint scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szkrd/oculus-intertenerius.git"
+  },
+  "author": "Szabolcs Kurdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szkrd/oculus-intertenerius/issues"
+  },
+  "homepage": "https://github.com/szkrd/oculus-intertenerius#readme",
+  "dependencies": {
+    "chalk": "1.1.3",
+    "dedent": "0.6.0",
+    "diacritics": "1.3.0",
+    "dotenv": "4.0.0",
+    "html-entities": "1.2.0",
+    "lodash": "4.17.4",
+    "moment": "2.17.1",
+    "pretty-date": "0.2.0",
+    "promptly": "2.1.0",
+    "sanitize-filename": "1.6.1",
+    "shelljs": "0.7.6",
+    "xml2json": "0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "3.13.1",
+    "eslint-config-semistandard": "7.0.0",
+    "eslint-config-standard": "6.2.1",
+    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-react": "6.9.0",
+    "eslint-plugin-standard": "2.0.1"
+  }
+}

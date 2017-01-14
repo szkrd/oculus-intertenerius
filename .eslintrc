@@ -1,0 +1,11 @@
+{
+  "extends": "semistandard",
+  "env": {
+    "node": true
+  },
+  "globals": {
+    "ls": false,
+    "cat": false,
+    "exec": false
+  }
+}

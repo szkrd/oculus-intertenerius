@@ -1,0 +1,9 @@
+# Twelve Kingdoms - 2002
+
+A "másik dimenzióba utazós" animék egyike (Escaflowne, Fushigi Yuugi, MKR, El Hazard); a rajz gyönyörű és látszik, hogy könyvből dolgozik, mert meglepően jól ki van dolgozva a párhuzamos világ - kár, hogy ez a világ gyakran megrázóan hasonlít egy mítikus-felcicomázott feudalista Japánra. Az első kb. tíz résznek nagyon szép az íve (Kei királynővé válása), aztán van egy nagyobb, majd eldobott szál a taiho-ról, aki nem akar taiho lenni (a taiho az uralkodót kiválasztó ember-unikornis lény), utána három-négy cselekményszál indul meg és tart egy pontba (kb. harminc részen keresztül), végül az utolsó öt részben En uralkodója meséli el életének egy epizódját. Pokoli sok a recap, a visszaemlékezés, az utólagos magyarázás - a narratíva darabjaira hullik, sokszor tanmese szagú a történet (a japán lány, aki mindenkinek a kedvére akart tenni, de aztán rájön, hogy ez képtelenség, valódi barátságokat köt, összeszedi magát, kezébe veszi a sorsát), engem zavar a felépített univerzum. Vannak mítikus lények, de az uralkodók (valamiféle) istenektől kapják a hatalmukat; ezek az istenek nem látszanak, több karakter is megkérdőjelezi a létüket, de ezt a szálat elhagyjuk; a társadalom kirekesztő, a nyelvi korlát nagyon magas, a bürokrácia túlburjánzó, a korrupció hihetetlen méreteket tud ölteni, a névleges hatalmi struktúrák szerteágazóak, a mítikus lények szigorú kasztokba sorolódnak alá- és fölérendeltségi viszonyokkal. A Juuni kokuki egy nagyon jó anime, kiemelkedik a műfaji tömegből, de ettől még nem tudok szemet hunyni a hibái felett.
+
+2015-06-18 
+
+----
+
+[6], [animáció], [japán], [metamorfózis], [sorozat], [tv]

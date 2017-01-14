@@ -1,0 +1,9 @@
+# Battle Royale - 2000
+
+Egy renitens osztályt kitesznek a marcona katonák egy szigeten: az diákok a feladata, hogy három nap alatt megöljék egymást; csak egy maradhat életben. Mindenki véletlen-kapott fegyverrel indul, van aki azonnal mészárlásba kezd géppisztollyal, van aki menekül egy fazék fedővel, van aki fehér zászlót lenget és megafonnal kér segítséget, van aki a szerelmével a tengerbe veti magát. Félreértés ne essék, ez a film egy szatíra, Kinji Fukasaku nem volt egy hülye rendező - Koushun Takami könyve maradéktalanul komolyan veszi magát és ehhez mérten unalmas és kissé bugyuta, egy a sok tinédzser-disztópia közül: a film kivételesen nagyságrendekkel több lett, mint az alapanyag, még ha igen véres és erőszakos is. Tele vagyunk japán klisékkel és azok paródiájával: az eligazító videó egy vicc, de a diákok közötti erők és kapcsolatok is mind fiú- és lánymangák szintjén mozognak, van szokásos diákszerelem toposz ("meg foglak védeni"), klikkesedés, ideges könyvmoly, pedofil bácsi stb. - Fukasaku a mészárlást metaforának használja, nem is nagyon titkolja, hogy ez a felnőttek világának képe. Senki nem érti mi történik - de túl kell élni (húzz bele! vagyis ganbare! - írta vég nélkül egy tekercs vécépapírra az öngyilkos apa); Kitano alakítja az összeomlott, kiégett tanárt, aki valójában ugyanúgy "össze van zavaroda", mint a diákok - a film zárójelenetében megint helyet kap egy naív festménye (lásd még: Tűzvirágok - de Kitano a motoros balesete óta fest is). Persze bekezdéseket tudnék írni a filmről, a száznál is több manga és kortárs/klasszikus japán film nélkül biztosan kevesebbet értenék ezekből az utalásokból.
+
+2016-10-22 
+
+----
+
+[10], [iskola], [japán], [trancsír], [újra]

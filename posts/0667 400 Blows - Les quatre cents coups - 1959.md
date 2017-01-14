@@ -1,0 +1,9 @@
+# 400 Blows - Les quatre cents coups - 1959
+
+Truffaut első filmje, francia újhullám, a cím leginkább úgy fordítható, mint "A bajkeverők" (csak hát&nbsp; a 400 csapás sokkol komolyabbnak tűnik). Antoine az anyjával és a nevelőapjával él egy egérlyukban: a kiskamasz játszani, szórakozni akar, nem iskolába járni - nincs benne egy fikarcnyi rosszindulat sem, azonban a szülők egyáltalán nem ismerik a gyereket, számukra csak egy értelmezhetelen nyűg, idővel a nevelőintézet mellett döntenek, amit szemrebbenés nélkül megindokolnak saját maguknak és a gyereknek is. Truffaut filmje nem tragikus, nem keserű, pusztán melankolikus: az Antoine-t játszó gyerekszínésznek (Jean-Pierre Leaud) végtelenül lágy, szomorkás vonásai vannak - a két gyerek főszereplő pedig tulajdonképpen nem ver agyon macskákat, nem gyújt fel hajléktalanokat, nem terít drogot, egyszerűen csak képtelenek maguk mögött hagyni a gyermeki múltat, erről pedig a szülőknek fogalma sincs: az egyik családban a nő dolgozik és félrelép, a férfi autós klubba jár, a másikban a feleség alkoholista és a férj lóversenyezik; ebben a világban nincs helye a gyereknek, aki (még mindig) gyerek akar lenni (vagy legalábbis fogalma nincs arról, mi szeretne lenni inkább - megmosolyogtató a fiú levele is, amiben bejelenti, hogy ő akkor szerencsét próbál a párizsi éjszakában). A záróképsor, ahol Antoine találkozik a tengerrel, ennek a lágy céltalanságnak a betetőzése - de persze ez sem tragikus, ahogy tulajdonképpen a szülők nemtörődömsége sem döbbenetes, csak valami zavarbaejtő tény; a rendőrök nem erőszakosak (a mérhetetlen unalom, amivel a két foglár társasjátékozik a harmadik pedig újságot olvas, szinte kézzel fogható), a tanárok bár ostobák, semmivel nem ostobábbak az átlagos tanári sztereotípiánál.
+
+2016-08-14 
+
+----
+
+[8], [család], [francia], [gyerek], [üveggolyó]
