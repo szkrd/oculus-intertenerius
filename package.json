@@ -8,6 +8,10 @@
     "check-integrity": "node scripts/check-integrity",
     "json-query": "node scripts/json-query",
     "add-new": "node --harmony-async-await scripts/add-new",
+    "help": "cat README.md | grep --color=always -e \"\\`npm run.*\\?\\`\"",
+    "A": "npm run add-new",
+    "Q": "npm run json-query",
+    "C": "npm run check-integrity",
     "lint": "eslint scripts"
   },
   "repository": {

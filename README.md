@@ -5,9 +5,9 @@ Tiny microblog about the movies I have seen, moved here from blogger and maintai
 ## scripts
 
 * `npm run import-blogger-xml` - import last xml file from xml folder
-* `npm run check-integrity` - check validity of markdown files
-* `npm run json-query` - run predefined queries
-* `npm run add-new` - create new article skeleton
+* `npm run check-integrity` - [C] check validity of markdown files
+* `npm run json-query` - [Q] run predefined queries
+* `npm run add-new` - [A] create new article skeleton
 
 ## env vars
 
