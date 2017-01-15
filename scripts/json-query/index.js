@@ -15,6 +15,7 @@ postsToJson().then(posts => {
   printOption('1', 'score >= 9');
   printOption('2', 'last 5 items');
   printOption('3', 'tags sorted by popularity');
+  printOption('4', 'tags sorted alphabetically');
   printOption('q', 'quit');
   console.log();
 
@@ -52,6 +53,17 @@ postsToJson().then(posts => {
         return s;
       }, []);
       console.log(out.join(', '));
+    }
+
+    if (value === '4') {
+      let tags = posts.reduce((acc, item) => {
+        (item.tags || []).forEach(tag => {
+          acc.push(tag);
+        });
+        return acc;
+      }, []);
+      tags = [ ...new Set(tags) ].sort().map(tag => chalk.gray(tag));
+      console.log(tags.join(', '));
     }
   });
 });
