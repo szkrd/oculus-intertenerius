@@ -1,1 +1,35 @@
-hello world
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./app.css">
+  <script src="//cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js" type="text/javascript"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/showdown/1.6.2/showdown.min.js" type="text/javascript"></script>
+  <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src="./meta.js" type="text/javascript"></script>
+  <script src="./app.js" type="text/javascript"></script>
+</head>
+<body>
+<h1>WIP</h1>
+<div id="tag-controls">
+  <a data-action="score">score</a>
+  <a data-action="all">all</a>
+  <a data-action="popular">popular</a>
+</div>
+<div id="tags"></div>
+<script type="text/template" id="tpl-tags">
+  <ul>
+    <% _.forEach(tags, tag => { %>
+    <li class="density-<%= tag.density %>">
+      <label>
+        <input type="checkbox" value="<%= tag.id %>"><%
+        %><%= tag.title %><%
+        %><sup>(<%= tag.posts.length %>)</sup>
+      </label>
+    </li>
+    <% }) %>
+  </ul>
+</script>
+</body>
+</html>

@@ -6,6 +6,9 @@
   "globals": {
     "ls": false,
     "cat": false,
-    "exec": false
+    "exec": false,
+    "$": false,
+    "_": false,
+    "ocin": false
   }
 }

@@ -1,0 +1,35 @@
+html { margin: 0; padding: 0; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+body { margin: 0; padding: 5px; }
+a { color: #118A80; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+
+#tags { font-size: 14px; }
+#tags li { display: inline-block; white-space: nowrap; padding: 1px 3px; margin: 0 1px 3px 0; border-radius: 4px; transition: all .5s ease-out; }
+#tags li input { vertical-align: middle; }
+
+/* hsv inverted gradient 150958 - FF382E | C9C3E9 - EBD2D1 */
+#tags li.density-0 { color: #150958; background-color: rgba(200, 195, 233, 0.3); }
+#tags li.density-0:hover { background-color: rgba(200, 195, 233, 0.75); }
+#tags li.density-1 { color: #0B2368; background-color: rgba(196, 205, 233, 0.3); }
+#tags li.density-1:hover { background-color: rgba(196, 205, 233, 0.75); }
+#tags li.density-2 { color: #0E5579; background-color: rgba(197, 221, 233, 0.3); }
+#tags li.density-2:hover { background-color: rgba(197, 221, 233, 0.75); }
+#tags li.density-3 { color: #118A80; background-color: rgba(199, 233, 230, 0.3); }
+#tags li.density-3:hover { background-color: rgba(199, 233, 230, 0.75); }
+#tags li.density-4 { color: #149A59; background-color: rgba(200, 233, 217, 0.3); }
+#tags li.density-4:hover { background-color: rgba(200, 233, 217, 0.75); }
+#tags li.density-5 { color: #18AB26; background-color: rgba(201, 234, 205, 0.3); }
+#tags li.density-5:hover { background-color: rgba(201, 234, 205, 0.75); }
+#tags li.density-6 { color: #4DBC1C; background-color: rgba(213, 234, 203, 0.3); }
+#tags li.density-6:hover { background-color: rgba(213, 234, 203, 0.75); }
+#tags li.density-7 { color: #9CCC20; background-color: rgba(226, 234, 204, 0.3); }
+#tags li.density-7:hover { background-color: rgba(226, 234, 204, 0.75); }
+#tags li.density-8 { color: #DDC524; background-color: rgba(234, 230, 206, 0.3); }
+#tags li.density-8:hover { background-color: rgba(234, 230, 206, 0.75); }
+#tags li.density-9 { color: #EE8329; background-color: rgba(234, 219, 207, 0.3); }
+#tags li.density-9:hover { background-color: rgba(234, 219, 207, 0.75); }
+#tags li.density-10 { color: #FF382E; background-color: rgba(235, 210, 209, 0.3); }
+#tags li.density-10:hover { background-color: rgba(235, 210, 209, 0.75); }
+
+#tag-controls { text-align: right; }
+#tag-controls a:before { content: '\2022'; }

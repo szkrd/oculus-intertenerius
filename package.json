@@ -7,11 +7,13 @@
     "check-integrity": "node scripts/check-integrity",
     "json-query": "node scripts/json-query",
     "add-new": "node --harmony-async-await scripts/add-new",
+    "build": "node scripts/build-html",
+    "dev": "serve docs",
     "help": "cat README.md | grep --color=always -e \"\\`npm run.*\\?\\`\"",
     "A": "npm run add-new",
     "Q": "npm run json-query",
     "C": "npm run check-integrity",
-    "lint": "eslint scripts"
+    "lint": "eslint scripts docs"
   },
   "repository": {
     "type": "git",
@@ -43,6 +45,7 @@
     "eslint-config-standard": "6.2.1",
     "eslint-plugin-promise": "3.4.0",
     "eslint-plugin-react": "6.9.0",
-    "eslint-plugin-standard": "2.0.1"
+    "eslint-plugin-standard": "2.0.1",
+    "serve": "3.0.2"
   }
 }
