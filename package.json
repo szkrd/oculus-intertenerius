@@ -13,7 +13,8 @@
     "A": "npm run add-new",
     "Q": "npm run json-query",
     "C": "npm run check-integrity",
-    "lint": "eslint scripts docs"
+    "lint": "eslint scripts docs",
+    "precommit": "npm run check-integrity"
   },
   "repository": {
     "type": "git",
@@ -46,6 +47,7 @@
     "eslint-plugin-promise": "3.4.0",
     "eslint-plugin-react": "6.9.0",
     "eslint-plugin-standard": "2.0.1",
+    "husky": "0.13.1",
     "serve": "3.0.2"
   }
 }
