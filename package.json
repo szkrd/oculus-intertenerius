@@ -13,6 +13,7 @@
     "A": "npm run add-new",
     "Q": "npm run json-query",
     "C": "npm run check-integrity",
+    "lazy": "scripts/lazy.sh",
     "lint": "eslint scripts docs",
     "precommit": "npm run check-integrity"
   },
