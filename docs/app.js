@@ -35,7 +35,7 @@ $(() => {
         if (coll[tagName]) {
           coll[tagName].selected = false;
           coll[tagName].visible = false;
-          coll[tagName].score = /^[\d]*$/.test(tagName);
+          coll[tagName].score = /^[\d.]*$/.test(tagName);
           coll[tagName].posts = coll[tagName].posts || [];
           coll[tagName].posts.push(post);
           maxPostCount = Math.max(maxPostCount, coll[tagName].posts.length);
