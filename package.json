@@ -4,6 +4,7 @@
   "description": "microbloggish thing about the movies I have seen",
   "scripts": {
     "import-blogger-xml": "node scripts/import-blogger-xml",
+    "get-tags-json": "node scripts/get-tags-json",
     "check-integrity": "node scripts/check-integrity",
     "json-query": "node scripts/json-query",
     "add-new": "node --harmony-async-await scripts/add-new",

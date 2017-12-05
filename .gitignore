@@ -33,3 +33,4 @@ jspm_packages
 
 # Blogger exported xml files
 xml/*.xml
+output
