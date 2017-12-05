@@ -11,25 +11,82 @@
   <script src="./app.js" type="text/javascript"></script>
 </head>
 <body>
-<h1>WIP</h1>
-<div id="tag-controls">
-  <a data-action="score">score</a>
-  <a data-action="all">all</a>
-  <a data-action="popular">popular</a>
+
+<div id="controls">
+  tags:
+  <input id="tag-range" type="range" min="1" max="999" step="1" value="1" />
+  <button data-action="score">score</button>
+  <button data-action="all">all</button>
+  <button data-action="popular">popular</button>
+  selection:
+  <button data-action="deselect">reset</button>
 </div>
+
 <div id="tags"></div>
+
+<div id="posts"></div>
+
+<!-- === -->
+
 <script type="text/template" id="tpl-tags">
   <ul>
     <% _.forEach(tags, tag => { %>
+    <% if (tag.visible) { %>
     <li class="density-<%= tag.density %>">
       <label>
-        <input type="checkbox" value="<%= tag.id %>"><%
+        <input type="checkbox" value="<%= tag.id %>" <%= tag.selected ? 'checked' : '' %>><%
         %><%= tag.title %><%
         %><sup>(<%= tag.posts.length %>)</sup>
       </label>
     </li>
+    <% } %>
     <% }) %>
   </ul>
 </script>
+
+<script type="text/template" id="tpl-posts">
+  <table style="display:<%= posts.length ? 'table' : 'none'%>">
+    <thead>
+      <tr>
+        <td>
+          Watched
+        </td>
+        <td>
+          Title (primary)
+        </td>
+        <td>
+          Movie year
+        </td>
+        <td>
+          Tags
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+    <% _.forEach(posts, post => { %>
+    <tr>
+      <td class="watched">
+        <%= post.watchDateRaw %>
+      </td>
+      <td class="title">
+        <a href="<%= post.url %>" target="_blank">
+          <%= post.titles[0] %>
+          <% if (post.titles[1]) { %>
+            <span class="title-2">(<%= post.titles[1] %>)</span>
+          <% } %>
+        </a>
+      </td>
+      <td class="year">
+        <%= post.movieYear ? post.movieYear : '' %>
+      </td>
+      <td class="tags">
+        <%= post.tags.join(', ') %>
+      </td>
+    </tr>
+    <% }) %>
+    </tbody>
+  </table>
+</script>
+
 </body>
 </html>

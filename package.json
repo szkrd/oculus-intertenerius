@@ -7,7 +7,7 @@
     "get-tags-json": "node scripts/get-tags-json",
     "check-integrity": "node scripts/check-integrity",
     "json-query": "node scripts/json-query",
-    "add-new": "node --harmony-async-await scripts/add-new",
+    "add-new": "node scripts/add-new",
     "build": "node scripts/build-html",
     "dev": "serve docs",
     "help": "cat README.md | grep --color=always -e \"\\`npm run.*\\?\\`\"",

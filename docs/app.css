@@ -3,7 +3,7 @@ body { margin: 0; padding: 5px; }
 a { color: #118A80; text-decoration: none; cursor: pointer; }
 a:hover { text-decoration: underline; }
 
-#tags { font-size: 14px; }
+#tags { font-size: 14px; max-height: 300px; overflow-y: auto; }
 #tags li { display: inline-block; white-space: nowrap; padding: 1px 3px; margin: 0 1px 3px 0; border-radius: 4px; transition: all .5s ease-out; }
 #tags li input { vertical-align: middle; }
 
@@ -31,5 +31,11 @@ a:hover { text-decoration: underline; }
 #tags li.density-10 { color: #FF382E; background-color: rgba(235, 210, 209, 0.3); }
 #tags li.density-10:hover { background-color: rgba(235, 210, 209, 0.75); }
 
-#tag-controls { text-align: right; }
-#tag-controls a:before { content: '\2022'; }
+#controls { text-align: right; height: 40px; }
+#controls * { display: inline-block; vertical-align: middle; }
+
+#posts table { border: 1px solid #eee; border-collapse: collapse; width: 100%; }
+#posts table td { border: 1px solid #eee; padding: 3px; }
+#posts table thead td { background-color: #eee; color: #888; font-weight: bold; }
+#posts table tbody tr:hover td { color: deepskyblue; }
+#posts table tbody td.watched, #posts table tbody td.year { color: #777; white-space: nowrap; }
