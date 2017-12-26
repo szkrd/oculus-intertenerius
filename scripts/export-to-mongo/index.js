@@ -5,6 +5,7 @@ const path = require('path');
 const fs = require('fs');
 const { promisify } = require('util');
 const mdToJson = require('../../lib/md-to-json');
+const concatUnique = require('../../lib/concat-unique');
 const projectMetaData = require('../../package');
 const { run } = require('./wrappers');
 
@@ -14,15 +15,6 @@ const MongoClient = require('mongodb').MongoClient;
 const dbUrl = process.env.DB_URL;
 const dbName = projectMetaData.name;
 const postsDir = path.resolve(__dirname, '../../posts');
-
-function addUniqueItems (toArray, fromArray) {
-  for (let i = 0, l = fromArray.length; i < l; i++) {
-    if (!toArray.includes(fromArray[i])) {
-      toArray.push(fromArray[i]);
-    }
-  }
-  return toArray;
-}
 
 run(async function () {
   // convert all md posts to jsons
@@ -46,8 +38,8 @@ run(async function () {
   // example queries
   collection = db.collection('posts');
   let items = await collection.find().project({ tags: 1 }).toArray();
-  let tags1 = jsons.reduce((acc, item) => addUniqueItems(acc, item.tags), []); // or reduce + concat + new Set
-  let tags2 = items.reduce((acc, item) => addUniqueItems(acc, item.tags), []);
+  let tags1 = jsons.reduce((acc, item) => concatUnique(acc, item.tags), []);
+  let tags2 = items.reduce((acc, item) => concatUnique(acc, item.tags), []);
   assert(items.length, jsons.length);
   assert(tags1.length, tags2.length);
   client.close();
