@@ -1,10 +1,8 @@
-const chalk = require('chalk');
+const PrettyError = require('pretty-error');
+const pe = new PrettyError();
 
 function onError (err) {
-  if (err.message && err.name) {
-    console.error(chalk.red('ERROR'));
-  }
-  console.error(err);
+  console.error(pe.render(err));
   process.exit(1);
 }
 
