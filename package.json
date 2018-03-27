@@ -5,6 +5,7 @@
   "scripts": {
     "import-blogger-xml": "node scripts/import-blogger-xml",
     "export-to-mongo": "node scripts/export-to-mongo",
+    "export-to-json-server": "node scripts/export-to-json-server",
     "get-tags-json": "node scripts/get-tags-json",
     "check-integrity": "node scripts/check-integrity",
     "json-query": "node scripts/json-query",
