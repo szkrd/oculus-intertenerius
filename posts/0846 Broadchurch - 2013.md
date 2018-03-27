@@ -8,4 +8,4 @@ Bár Hardy figurája kimondottan közhelyes, ahogy maga a felállás is (kis vá
 
 ----
 
-[10], [gyilkosság], [kisváros], [nyomozók], [rablópandúr], [tenger]
+[10], [gyilkosság], [kisváros], [nyomozók], [rablópandúr], [tenger], [sorozat], [tv]
