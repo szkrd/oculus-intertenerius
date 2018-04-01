@@ -10,4 +10,4 @@ A végeredmény se nem jó, se nem rossz - talán inkább pozitív a mérleg, de
 
 ----
 
-[5.5], [anime], [animáció], [horror], [japan], [vámpír], [pénzazvan]
+[5.5], [anime], [animáció], [horror], [japán], [vámpír], [pénzazvan]
