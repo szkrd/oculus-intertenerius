@@ -6,4 +6,4 @@ Az utolsó évad: a major arc kétszer meg van törve (rape case solved, murder 
 
 ----
 
-[5.5], [highschool], [iskola], [nyomozó], [whodunit]
+[5.5], [highschool], [iskola], [nyomozó], [whodunnit]
