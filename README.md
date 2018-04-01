@@ -10,6 +10,7 @@ and maintained with a couple of npm scripts.
 * `npm run add-new` - [A] create new article skeleton
 * `npm run import-blogger-xml` - import last xml file from the `xml` folder
 * `npm run export-to-mongo` - export jsons into `oculus-intertenerius` db, `posts` collection
+* `npm run export-to-json-server` - export jsons into db.json, use with the [fake api](https://github.com/szkrd/fake-blog-api)
 * `npm run dev` - serve the static docs folder
 * `scripts/lazy.sh` - commit, lint and push the newly added post
 
