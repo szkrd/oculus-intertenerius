@@ -8,4 +8,4 @@ a ket fiatal noben (zaras) kimondottan dramai.
 
 ----
 
-[8.5], [csalad], [tini], [uresseg], [ver]
+[9.5], [csalad], [tini], [uresseg], [ver]
