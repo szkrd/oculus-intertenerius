@@ -7,4 +7,4 @@ Brandon Lee, akarom mondani Johnny Depp visszatér a halálból. Vagyis a veszt�
 
 ----
 
-[5.5]
+[5.5], [goth]

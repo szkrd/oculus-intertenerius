@@ -6,4 +6,4 @@ Humphrey Bogart (bugyuta tengerész-gépész) és Katherine Hepburn (misszionár
 
 ----
 
-[3.5]
+[3.5], [kaland], [mese]

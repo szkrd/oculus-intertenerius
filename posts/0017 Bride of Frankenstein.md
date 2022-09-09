@@ -7,4 +7,4 @@ Az őrült Pretorius meg a táncoló lombiktörpéi: amikor megláttam őket, ug
 
 ----
 
-[6]
+[6], [horror], [mese]

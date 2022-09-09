@@ -7,4 +7,4 @@ Horror nevelőnővel, két égetnivaló álszent kölyökkel és egy halott szer
 
 ----
 
-[8]
+[8], [horror]

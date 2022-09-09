@@ -6,4 +6,4 @@ Piperkőc nagypofájú filmrendező halálközeli élmény hatására kilép a m
 
 ----
 
-[5]
+[5], [wenders]

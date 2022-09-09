@@ -7,4 +7,4 @@ Virtuális valóság és valóság, mi a játék és mi nem az (most hirtelen es
 
 ----
 
-[7.5]
+[7.5], [cronenberg], [testhorror]

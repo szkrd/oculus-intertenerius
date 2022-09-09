@@ -7,4 +7,4 @@ Kellemes abszurd kannibál kommunával, keserédes bohóccal, csipkerózsikával
 
 ----
 
-[8]
+[8], [mese], [trancsír]
